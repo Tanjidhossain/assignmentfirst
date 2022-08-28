@@ -1,0 +1,174 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.header h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+.header p{
+    color: beige;
+}
+
+.header{
+ background-image: url(images/donation5.jpg);
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+
+}
+
+.header:hover {
+    opacity: 0.6;
+    transition: 2s;
+    
+ }
+
+.header-part{
+     text-align: center;
+     padding-top: 80px;
+     
+}
+
+.Orange-color, .Orange-color2nd {
+    background-color: rgb(193, 214, 115);
+    text-decoration: none;
+    color: white;
+    padding: 10px 12px;
+    margin-top: 350px;
+    border-radius: 3px;
+    
+}
+
+.Orange-color:hover{
+    outline: 3px solid rgb(193, 214, 115);
+    background-color: transparent;
+    transition: 2s;
+}
+
+.money{
+    display: flex;
+     
+   
+}
+
+.money-part{
+     width: 100%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 70px;
+    height: 60px;
+    background-color: rgb(227, 229, 235);
+    
+}
+
+.money-part:hover{
+    border: 2px solid red;
+    transition: .08s ease-in-out;
+}
+
+.Orange-color2nd:hover{
+     outline: 3px solid rgb(193, 214, 115);
+    background-color: transparent;
+    transition: 2s;
+    color: rgb(193, 214, 115);
+    
+}
+hr{
+    width: 90%;
+    
+}
+
+
+
+
+
+.flexible-container{
+    display: flex;
+}
+
+.donatebox-area{
+    
+     background-repeat: no-repeat;
+     background-position: left;
+    
+
+}
+
+
+.donatebox-item{
+    
+    width: 40%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 70px;
+   
+     
+}
+
+#border-first{
+    background-color: rgba(135, 207, 235, 0.507);
+}
+#border-middle{
+    background-color: rgba(255, 192, 203, 0.404);
+}
+#border-last{
+    background-color: rgba(255, 255, 0, 0.281);
+}
+
+
+
+
+
+h1{
+    font-size: 50px ;
+}
+
+
+.flexible-container{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 140px;
+}
+.half-width img{
+    width: 80%;
+    height: 500px;
+    border-radius: 4px;
+}
+
+
+.link-button {
+    background-color: rgb(193, 214, 115);
+    text-decoration: none;
+    color: white;
+    padding: 10px 32px;
+    margin-top: 350px;
+    border-radius: 3px;
+    
+}
+
+.link-button:hover{
+    outline: 3px solid rgb(193, 214, 115);
+    background-color: transparent;
+    transition: 2s;
+    color: navy;
+    font-weight: 600;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    height: 150px;
+ 
+}
